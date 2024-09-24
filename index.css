@@ -1,3 +1,7 @@
-body{
-    padding: 5px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* لجعل النص يظهر من اليمين إلى اليسار */
 }
