@@ -1,6 +1,33 @@
-.h11{
-    color: aqua;
+body {
+    direction: rtl;
 }
-p{
-    color: azure;
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.heading::before,
+        .heading::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 35%;
+            height: 12px;
+            background: #000;
+            border-radius: 10px;
+        }
+.heading::before {
+    right: 62%;
+    margin-right: 15px;
+}
+.heading::after {
+    left: 62%;
+    margin-left: 15px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-body {
+    text-align: right;
 }
