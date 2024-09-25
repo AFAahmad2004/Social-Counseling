@@ -5,3 +5,14 @@ body {
     padding: 0;
     direction: rtl; /* لجعل النص يظهر من اليمين إلى اليسار */
 }
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
