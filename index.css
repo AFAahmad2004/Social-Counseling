@@ -1,6 +1,32 @@
 body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     direction: rtl;
 }
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .heading {
     text-align: center;
     margin-top: 50px;
@@ -14,7 +40,7 @@ body {
             top: 50%;
             width: 35%;
             height: 12px;
-            background: #000;
+            background: #007BFF;
             border-radius: 10px;
         }
 .heading::before {
