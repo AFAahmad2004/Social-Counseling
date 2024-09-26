@@ -1,3 +1,75 @@
-.h11{
-    color: aqua;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.heading::before,
+        .heading::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 35%;
+            height: 12px;
+            background: #007BFF;
+            border-radius: 10px;
+        }
+.heading::before {
+    right: 62%;
+    margin-right: 15px;
+}
+.heading::after {
+    left: 62%;
+    margin-left: 15px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-body {
+    text-align: right;
+}
+
+#read-more {
+    background-color: transparent; 
+    border: 1px solid #007bff; 
+    color: #007bff; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+#read-more:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.card-title{
+    font-weight: bold;
 }
