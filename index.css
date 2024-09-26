@@ -26,3 +26,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007BFF;
+}
