@@ -65,8 +65,11 @@ nav ul li a {
     transition: background-color 0.3s, color 0.3s; 
 }
 
-/* Make Hover */
 #read-more:hover {
     background-color: #007bff; 
     color: #fff; 
+}
+
+.card-title{
+    font-weight: bold;
 }
